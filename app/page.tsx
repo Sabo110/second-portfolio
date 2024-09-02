@@ -1,5 +1,7 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { Progress } from "@/components/ui/progress"
+
 export default function Home() {
   const projects = [
     {
@@ -10,7 +12,7 @@ export default function Home() {
     {
       title: 'Blog sur le developpement personnel',
       stacks: ['react js', 'tailwind css'],
-      demo: 'https://the-mind.netlify.app'
+      demo: 'https://the-mind-set.netlify.app'
     },
     {
       title: 'Générateur de questionnaire à partir d\'un document pdf',
@@ -79,6 +81,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
 
   );
