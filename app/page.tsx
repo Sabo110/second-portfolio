@@ -54,7 +54,7 @@ export default function Home() {
           <h1 className="font-semibold text-2xl mb-3">Mes projets</h1>
           <div className="flex flex-wrap gap-4">
             {projects.map((item, index) => (
-              <div key={index} className="border p-4 rounded max-w-[400px] ">
+              <div key={index} className="border shadow-lg p-4 rounded max-w-[400px] ">
                 <h1 className="font-semibold text-lg mb-4"> {item.title} </h1>
                 <div className="flex flex-wrap gap-3 mb-4">
                   {item.stacks.map((it, index) => (
